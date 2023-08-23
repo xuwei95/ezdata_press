@@ -1,17 +1,23 @@
-# Hello
 
-## 前言
+系统效果
+----
+##### 主页
+![](/images/dashboard.png)
+##### 数据源管理
+![](/images/datasource.png)
+##### 数据模型管理
+![](/images/datamodel.png)
+##### 数据自定义查询及接口封装
+![](/images/data_query.png)
+##### 任务模版管理
+![](/images/task_template.png)
+##### 任务调度
+![](/images/task_scheduler.png)
+##### dag任务工作流
+![](/images/dag.png)
+##### worker执行节点管理
+![](/images/worker_ops.png)
+##### 数据可视化大屏
+![](/images/bigscreen1.png)
+![](/images/bigscreen2.png)
 
-## 静态资源
-
-![](/images/bug.jpg)
-
-## 表格示例
-
-| 参数         | 说明               | 类型            | 可选值                                           | 默认值  |
-| ------------ | ------------------ | --------------- | ------------------------------------------------ | ------- |
-| `type`       | 类型               | string          | `default` `primary` `success` `danger` `warning` | default |
-| `font-size`  | 副标题文字大小     | string / number | ——                                               | 15px    |
-| `title-size` | 主标题文字大小     | string / number | ——                                               | 17px    |
-| `bold`       | 文字是否以粗体显示 | boolean         | ——                                               | false   |
-| `center`     | 是否居中           | boolean         | ——                                               | false   |
