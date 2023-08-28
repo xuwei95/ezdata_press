@@ -29,6 +29,10 @@ export default defineConfig({
    * @see theme-config https://vitepress.vuejs.org/guide/migration-from-vitepress-0#theme-config
    */
   themeConfig: {
+    logo: '/images/logo.png',
+    // search: {
+    //   provider: 'local',
+    // },
     /**
      * 最后更新时间的文案显示
      *

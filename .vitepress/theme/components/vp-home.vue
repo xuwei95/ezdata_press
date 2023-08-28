@@ -1,9 +1,8 @@
 <template>
   <f-main>
     <f-text align="center" line-height="70px" bold block size="25px">
-      低代码数据处理和任务调度系统。
+      <span class="title">低代码数据处理和任务调度系统</span>
     </f-text>
-
     <f-text align="center">
       <f-button round type="primary" class="start" href="/docs/hello.html">
         快速开始
@@ -37,8 +36,16 @@
 </script>
 
 <style scoped>
+.tagline {
+  font-size: 76px;
+  line-height: 1.25;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  max-width: 960px;
+  margin: 0 auto;
+}
 .f-main {
-  max-width: 620px;
+  max-width: 960px;
   margin: 40px auto;
   box-sizing: border-box;
   padding: 40px;
