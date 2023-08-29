@@ -11,6 +11,8 @@ import type MarkdownIt from 'markdown-it'
  */
 export default defineConfig({
   title: 'ezdata',
+  description: 'ezdata项目官网',
+  lang: 'zh-CN',
   /**
    * 是否显示最后更新时间
    *
@@ -29,10 +31,7 @@ export default defineConfig({
    * @see theme-config https://vitepress.vuejs.org/guide/migration-from-vitepress-0#theme-config
    */
   themeConfig: {
-    logo: '/images/logo.png',
-    // search: {
-    //   provider: 'local',
-    // },
+    logo: 'https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/logo.png?raw=true',
     /**
      * 最后更新时间的文案显示
      *
@@ -50,6 +49,15 @@ export default defineConfig({
         link: 'https://github.com/xuwei95/ezdata'
       }
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present'
+    },
+    algolia: {
+      appId: 'IJM2XQUGK8',
+      apiKey: '74ef6a23d2e4ee33d4017386dee5f5b1',
+      indexName: 'ezdata'
+    },
     nav,
     sidebar
   },
