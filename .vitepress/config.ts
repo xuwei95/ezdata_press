@@ -13,6 +13,9 @@ export default defineConfig({
   title: 'ezdata',
   description: 'ezdata项目官网',
   lang: 'zh-CN',
+  head: [
+    [ 'link', { rel: 'icon', href: 'https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/logo.svg?raw=true' } ]
+  ],
   /**
    * 是否显示最后更新时间
    *
