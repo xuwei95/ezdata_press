@@ -9,6 +9,8 @@
 ![](/images/datamodel.png)
 ##### 数据自定义查询及接口封装
 ![](/images/data_query.png)
+##### 数据集成
+![](/images/etl.png)
 ##### 任务模版管理
 ![](/images/task_template.png)
 ##### 任务调度
