@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /docs/hello.html
+      link: /docs/introduction.html
     - theme: alt
       text: demo演示
       link: http://110.40.157.36
