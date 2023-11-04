@@ -1,25 +1,33 @@
+快速开始
+-----------------------------------
 
-系统效果
-----
-##### 主页
-![](/images/dashboard.png)
-##### 数据源管理
-![](/images/datasource.png)
-##### 数据模型管理
-![](/images/datamodel.png)
-##### 数据自定义查询及接口封装
-![](/images/data_query.png)
-##### 数据集成
-![](/images/etl.png)
-##### 任务模版管理
-![](/images/task_template.png)
-##### 任务调度
-![](/images/task_scheduler.png)
-##### dag任务工作流
-![](/images/dag.png)
-##### worker执行节点管理
-![](/images/worker_ops.png)
-##### 数据可视化大屏
-![](/images/bigscreen1.png)
-![](/images/bigscreen2.png)
+## 使用 docker-compose 启动服务
+
+### 1. 前置条件
+- 需要安装 Docker，以及 Docker Compose。
+- docker 安装
+```
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+- docker-compose 安装
+```
+curl -SL https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+```
+
+### 2. 启动服务
+- 下载源码
+```
+git clone https://github.com/xuwei95/ezdata.git
+```
+- 运行服务
+```
+cd ezdata/deploy/docker
+docker-compose up -d
+``` 
+
+### 3. 访问系统
+浏览器访问 http://服务ip  默认的用户和密码分别为 admin 和 qwer1234
+![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/login.png?raw=true "在这里输入图片标题")
+
+
 

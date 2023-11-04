@@ -15,14 +15,6 @@ export const sidebar = {
       ]
     },
     {
-      text: '功能介绍',
-      collapsible: true,
-      link: '/docs/guide/datasource',
-      items: [
-        { text: '数据源管理', link: '/docs/guide/datasource' },
-      ]
-    },
-    {
       text: '开发部署',
       collapsible: true,
       link: '/docs/deploy/local',
@@ -30,6 +22,45 @@ export const sidebar = {
         { text: '本地运行', link: '/docs/deploy/local' },
         { text: 'docker部署', link: '/docs/deploy/docker' },
         { text: 'kubernetes部署', link: '/docs/deploy/k8s' }
+      ]
+    },
+    {
+      text: '功能介绍',
+      collapsible: true,
+      link: '/docs/guide/dashboard',
+      items: [
+        {
+          text: '应用首页',
+          link: '/docs/guide/dashboard'
+        },
+        {
+          text: '数据管理',
+          link: '/docs/guide/datamanage/index',
+          items: [
+            {
+              text: '数据源管理',
+              link: '/docs/guide/datamanage/datasource/index',
+              items: [
+                {
+                  text: 'mysql',
+                  link: '/docs/guide/datamanage/datasource/mysql'
+                },
+              ]
+            },
+            {
+              text: '数据模型管理',
+              link: '/docs/guide/datamanage/datasource/index'
+            },
+            {
+              text: '算法管理',
+              link: '/docs/guide/datamanage/datasource/index'
+            },
+            {
+              text: '数据查询',
+              link: '/docs/guide/datamanage/datasource/index'
+            },
+          ]
+        },
       ]
     },
     {
