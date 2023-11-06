@@ -53,23 +53,131 @@ export const sidebar = {
             },
             {
               text: '算法管理',
-              link: '/docs/guide/datamanage/datasource/index'
+              link: '/docs/guide/datamanage/algorithm'
             },
             {
               text: '数据查询',
-              link: '/docs/guide/datamanage/datasource/index'
+              link: '/docs/guide/datamanage/dataquery'
+            },
+          ]
+        },
+        {
+          text: '任务调度',
+          link: '/docs/guide/scheduler/index',
+          items: [
+            {
+              text: '任务模版管理',
+              link: '/docs/guide/scheduler/task_template'
+            },
+            {
+              text: '普通任务调度',
+              link: '/docs/guide/scheduler/task_scheduler'
+            },
+            {
+              text: '任务工作流调度',
+              link: '/docs/guide/scheduler/dag_scheduler'
+            },
+          ]
+        },
+        {
+          text: '告警管理',
+          link: '/docs/guide/alert/index',
+          items: [
+            {
+              text: '告警策略',
+              link: '/docs/guide/alert/alert_strategy'
+            },
+            {
+              text: '告警列表',
+              link: '/docs/guide/alert/alert_list'
+            }
+          ]
+        },
+        {
+          text: '数据可视化',
+          link: '/docs/guide/visualization/index',
+          items: [
+            {
+              text: '数据大屏管理',
+              link: '/docs/guide/visualization/bigscreen'
+            }
+          ]
+        },
+        {
+          text: '监控运维',
+          link: '/docs/guide/ops/index',
+          items: [
+            {
+              text: '日志管理',
+              link: '/docs/guide/ops/job_manage'
+            },
+            {
+              text: '定时job管理',
+              link: '/docs/guide/ops/job_manage'
+            },
+            {
+              text: 'worker管理',
+              link: '/docs/guide/ops/worker_manage'
+            },
+          ]
+        },
+        {
+          text: '开发工具',
+          link: '/docs/guide/devtools/index',
+          items: [
+            {
+              text: '代码生成器',
+              link: '/docs/guide/devtools/codegen'
+            }
+          ]
+        },
+        {
+          text: '系统管理',
+          link: '/docs/guide/system/index',
+          items: [
+            {
+              text: '用户管理',
+              link: '/docs/guide/system/user'
+            },
+            {
+              text: '角色管理',
+              link: '/docs/guide/system/role'
+            },
+            {
+              text: '菜单管理',
+              link: '/docs/guide/system/menu'
+            },
+            {
+              text: '部门管理',
+              link: '/docs/guide/system/depart'
+            },
+            {
+              text: '我的部门',
+              link: '/docs/guide/system/depart_user'
+            },
+            {
+              text: '通知公告',
+              link: '/docs/guide/system/notice'
+            },
+            {
+              text: '数据字典',
+              link: '/docs/guide/system/dict'
+            },
+            {
+              text: '对象存储',
+              link: '/docs/guide/system/oss'
             },
           ]
         },
       ]
     },
-    {
-      text: 'API',
-      collapsible: true,
-      link: '/docs/api/sys',
-      items: [
-        { text: 'test', link: '/docs/api/sys' },
-      ]
-    }
+    // {
+    //   text: 'API',
+    //   collapsible: true,
+    //   link: '/docs/api/sys',
+    //   items: [
+    //     { text: 'test', link: '/docs/api/sys' },
+    //   ]
+    // }
   ]
 }
