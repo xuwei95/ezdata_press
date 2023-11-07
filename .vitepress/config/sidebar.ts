@@ -42,8 +42,20 @@ export const sidebar = {
               link: '/docs/guide/datamanage/datasource/index',
               items: [
                 {
+                  text: 'akshare公开财经数据接口',
+                  link: '/docs/guide/datamanage/datasource/akshare'
+                },
+                {
+                  text: '文件',
+                  link: '/docs/guide/datamanage/datasource/file'
+                },
+                {
                   text: 'mysql',
                   link: '/docs/guide/datamanage/datasource/mysql'
+                },
+                {
+                  text: 'elasticsearch',
+                  link: '/docs/guide/datamanage/datasource/elasticsearch'
                 },
               ]
             },
