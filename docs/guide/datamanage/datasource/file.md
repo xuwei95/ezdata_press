@@ -1,7 +1,7 @@
 文件数据源
 ----
 
-![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/datasource_elasticsearch.png?raw=true "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/datasource_file.png?raw=true "在这里输入图片标题")
 
 - 名称：输入数据源的名称
 - 类型：选择 文件
