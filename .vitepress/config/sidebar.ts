@@ -115,7 +115,7 @@ export const sidebar = {
               items: [
                 {
                   text: '数据集成任务',
-                  link: '/docs/guide/scheduler/task_template/python.md'
+                  link: '/docs/guide/scheduler/task_template/etl.md'
                 },
                 {
                   text: 'python任务',
@@ -123,19 +123,19 @@ export const sidebar = {
                 },
                 {
                   text: 'shell任务',
-                  link: '/docs/guide/scheduler/task_template/python.md'
+                  link: '/docs/guide/scheduler/task_template/shell.md'
                 },
                 {
                   text: 'spark任务',
-                  link: '/docs/guide/scheduler/task_template/python.md'
+                  link: '/docs/guide/scheduler/task_template/spark.md'
                 },
                 {
                   text: 'flink任务',
-                  link: '/docs/guide/scheduler/task_template/python.md'
+                  link: '/docs/guide/scheduler/task_template/flink.md'
                 },
                 {
                   text: '动态自定义任务',
-                  link: '/docs/guide/scheduler/task_template/python.md'
+                  link: '/docs/guide/scheduler/task_template/dynamic.md'
                 },
               ]
             },
