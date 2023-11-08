@@ -54,6 +54,10 @@ export const sidebar = {
                   link: '/docs/guide/datamanage/datasource/minio'
                 },
                 {
+                  text: 'http请求',
+                  link: '/docs/guide/datamanage/datasource/http'
+                },
+                {
                   text: 'mysql',
                   link: '/docs/guide/datamanage/datasource/mysql'
                 },

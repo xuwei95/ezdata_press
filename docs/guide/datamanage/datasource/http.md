@@ -1,0 +1,16 @@
+http数据源
+----
+
+![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/datasource_http.png?raw=true "在这里输入图片标题")
+
+- 名称：输入数据源的名称
+- 类型：选择 http请求
+- 链接配置：http请求连接配置  
+  **连接地址：输入http请求地址**  
+  **请求方式：选择http请求方式**    
+  **超时时长：http请求超时时长，单位秒**  
+  **请求头：http请求头 以 JSON 形式填写**  
+  **请求体：http请求体 以 JSON 形式填写**  
+- 额外参数：用于连接的额外参数设置，以 JSON 形式填写
+- 描述：输入数据源的描述
+- 排序：排序展示字段，越大越靠前
