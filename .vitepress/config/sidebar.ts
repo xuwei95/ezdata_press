@@ -50,18 +50,50 @@ export const sidebar = {
                   link: '/docs/guide/datamanage/datasource/file'
                 },
                 {
+                  text: 'minio对象存储',
+                  link: '/docs/guide/datamanage/datasource/minio'
+                },
+                {
                   text: 'mysql',
                   link: '/docs/guide/datamanage/datasource/mysql'
+                },
+                {
+                  text: 'clickhouse',
+                  link: '/docs/guide/datamanage/datasource/clickhouse'
                 },
                 {
                   text: 'elasticsearch',
                   link: '/docs/guide/datamanage/datasource/elasticsearch'
                 },
+                {
+                  text: 'redis',
+                  link: '/docs/guide/datamanage/datasource/redis'
+                },
+                {
+                  text: 'mongodb',
+                  link: '/docs/guide/datamanage/datasource/mongodb'
+                },
+                {
+                  text: 'neo4j',
+                  link: '/docs/guide/datamanage/datasource/neo4j'
+                },
+                {
+                  text: 'influxdb',
+                  link: '/docs/guide/datamanage/datasource/influxdb'
+                },
+                {
+                  text: 'prometheus',
+                  link: '/docs/guide/datamanage/datasource/prometheus'
+                },
+                {
+                  text: 'kafka',
+                  link: '/docs/guide/datamanage/datasource/kafka'
+                },
               ]
             },
             {
               text: '数据模型管理',
-              link: '/docs/guide/datamanage/datasource/index'
+              link: '/docs/guide/datamanage/datamodel/index'
             },
             {
               text: '算法管理',
