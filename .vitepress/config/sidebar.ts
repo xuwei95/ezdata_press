@@ -111,7 +111,33 @@ export const sidebar = {
           items: [
             {
               text: '任务模版管理',
-              link: '/docs/guide/scheduler/task_template'
+              link: '/docs/guide/scheduler/task_template/index',
+              items: [
+                {
+                  text: '数据集成任务',
+                  link: '/docs/guide/scheduler/task_template/python.md'
+                },
+                {
+                  text: 'python任务',
+                  link: '/docs/guide/scheduler/task_template/python.md'
+                },
+                {
+                  text: 'shell任务',
+                  link: '/docs/guide/scheduler/task_template/python.md'
+                },
+                {
+                  text: 'spark任务',
+                  link: '/docs/guide/scheduler/task_template/python.md'
+                },
+                {
+                  text: 'flink任务',
+                  link: '/docs/guide/scheduler/task_template/python.md'
+                },
+                {
+                  text: '动态自定义任务',
+                  link: '/docs/guide/scheduler/task_template/python.md'
+                },
+              ]
             },
             {
               text: '普通任务调度',
