@@ -1,9 +1,10 @@
-python 任务
+动态自定义 任务
 ----
 
-![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/datasource_akshare.png?raw=true "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/dynamic_task.png?raw=true "在这里输入图片标题")
 
-- 运行模式：python任务运行模式，可使用在线编写代码或直接运行对应路径python脚本文件
-- 代码：若运行模式为代码模式，可直接编辑在线python代码运行
-- 文件地址：若运行模式为文件模式，对应python文件的路径
-- 额外参数：若运行模式为代码模式，运行文件的后缀参数
+- 表单类型：可使用前端内置vue组件或使用动态配置生成任务配置表单(参考文档 https://help.jeecg.com/component/basicForm.html )
+- 模版配置： 若使用动态配置表单，使用表单引擎配置json动态渲染对应任务表单
+- 执行器类型：可使用内置任务执行器执行对应任务，也可在线编写执行器代码，实现对应任务处理逻辑。
+- 执行器代码：执行器python代码run函数逻辑，读取任务参数params，实现对应执行逻辑，可使用logger参数打印相应日志调试处理逻辑。
+  ![输入图片说明](https://raw.githubusercontent.com/xuwei95/ezdata_press/master/images/dynamic_task_edit.png?raw=true "在这里输入图片标题")
