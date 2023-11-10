@@ -183,7 +183,7 @@ export const sidebar = {
           items: [
             {
               text: '日志管理',
-              link: '/docs/guide/ops/job_manage'
+              link: '/docs/guide/ops/log_manage'
             },
             {
               text: '定时job管理',

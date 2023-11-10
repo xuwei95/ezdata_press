@@ -6,7 +6,7 @@ minio数据源
 - 名称：输入数据源的名称
 - 类型：选择 minio对象存储
 - 链接配置：minio连接配置  
-  **服务器：输入连接 minio 的 url**
+  **服务器：输入连接 minio 的 url**  
   **用户名：设置连接 minio 的用户名**  
   **密码：设置连接 minio 的密码**  
   **bucket：输入连接 minio 的存储桶名称**  
