@@ -57,8 +57,8 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present'
     },
     algolia: {
-      appId: 'IJM2XQUGK8',
-      apiKey: '74ef6a23d2e4ee33d4017386dee5f5b1',
+      appId: 'MSQATXRYNR',
+      apiKey: '25088cb150bf76bcfa88dd773e191b91',
       indexName: 'ezdata'
     },
     nav,
