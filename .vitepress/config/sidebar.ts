@@ -46,6 +46,10 @@ export const sidebar = {
                   link: '/docs/guide/datamanage/datasource/akshare'
                 },
                 {
+                  text: 'ccxt加密货币数据接口',
+                  link: '/docs/guide/datamanage/datasource/ccxt'
+                },
+                {
                   text: '文件',
                   link: '/docs/guide/datamanage/datasource/file'
                 },
@@ -62,8 +66,24 @@ export const sidebar = {
                   link: '/docs/guide/datamanage/datasource/mysql'
                 },
                 {
+                  text: 'pgsql',
+                  link: '/docs/guide/datamanage/datasource/pgsql'
+                },
+                {
+                  text: 'oracle',
+                  link: '/docs/guide/datamanage/datasource/oracle'
+                },
+                {
+                  text: 'sqlserver',
+                  link: '/docs/guide/datamanage/datasource/sqlserver'
+                },
+                {
                   text: 'clickhouse',
                   link: '/docs/guide/datamanage/datasource/clickhouse'
+                },
+                {
+                  text: 'hive',
+                  link: '/docs/guide/datamanage/datasource/hive'
                 },
                 {
                   text: 'elasticsearch',
