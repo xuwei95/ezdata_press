@@ -174,6 +174,15 @@ externalElasticSearch:
   hosts: "127.0.0.1:9200"
   username: "elastic"
   password: "ezdata123"
+
+llm:
+  enabled: true
+  type: openai
+#  url: https://api.openai.com/v1
+  url: https://api.openai-proxy.com/v1
+  api_key: sk-XXX
+  model: gpt-3.5-turbo
+  
 ``` 
 - 更新依赖，并运行helm chart启动服务
 ``` 

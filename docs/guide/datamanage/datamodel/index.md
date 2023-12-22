@@ -9,6 +9,7 @@ ezdata会将各数据源类型(文件，api，数据库表，数据库查询sql�
 | 数据源类型 | 数据模型类型 | 支持功能
 |:-----:|:-----:|:-----:|
 | akshare | akshare财经数据接口 | 查询，数据抽取
+| ccxt | ccxt加密货币数据接口 | 查询，数据抽取
 | http | json api | 查询，数据抽取  
 | http | html | 查询，数据抽取
 | 文件 | 表格文件(csv/excel) |  查询，数据抽取
@@ -21,11 +22,19 @@ ezdata会将各数据源类型(文件，api，数据库表，数据库查询sql�
 | redis | 列表 | 查询，数据抽取，数据装载
 | redis | 队列 | 查询，数据抽取，数据装载
 | redis | 哈希 | 查询，数据抽取，数据装载
-| mysql | mysql表 | 查询，创建，操作字段，删除，数据抽取，数据装载
+| mysql | 数据表 | 查询，创建，操作字段，删除，数据抽取，数据装载
 | mysql | sql | 查询，数据抽取
 | mysql | binlog数据流 | 查询，数据抽取
-| clickhouse | clickhouse表 | 查询，创建，操作字段，删除，数据抽取，数据装载
+| pgsql | 数据表 | 查询，创建，操作字段，删除，数据抽取，数据装载
+| pgsql | sql | 查询，数据抽取
+| sqlserver | 数据表 | 查询，创建，操作字段，删除，数据抽取，数据装载
+| sqlserver | sql | 查询，数据抽取
+| oracle | 数据表 | 查询，创建，操作字段，删除，数据抽取，数据装载
+| oracle | sql | 查询，数据抽取
+| clickhouse | 数据表 | 查询，创建，操作字段，删除，数据抽取，数据装载
 | clickhouse | sql | 查询，数据抽取
+| hive | 数据表 | 查询，创建，操作字段，删除，数据抽取，数据装载
+| hive | sql | 查询，数据抽取
 | elasticsearch | elasticsearch索引 | 查询，创建，操作字段，删除，数据抽取，数据装载
 | mongodb | mongodb集合 | 查询，创建，操作字段，删除，数据抽取，数据装载
 | neo4j | neo4j graph | 查询，创建，操作字段，删除，数据抽取，数据装载

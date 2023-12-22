@@ -127,6 +127,10 @@ export const sidebar = {
               text: '数据查询',
               link: '/docs/guide/datamanage/dataquery'
             },
+            {
+              text: '数据对话',
+              link: '/docs/guide/datamanage/datachat'
+            },
           ]
         },
         {

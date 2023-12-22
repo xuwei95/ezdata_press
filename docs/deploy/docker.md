@@ -67,6 +67,13 @@ TOKEN_EXP_TIME=86400
 SECRET_KEY=erwqefdscweer)qi
 # xorbits集群地址 local为本地
 XORBITS_CLUSTER=local
+
+# llm 相关配置
+LLM_TYPE=openai
+# LLM_URL=https://api.openai.com/v1
+LLM_URL=https://api.openai-proxy.com/v1
+LLM_API_KEY=sk-XXX  # 修改为自己的openai key
+LLM_MODEL=gpt-3.5-turbo
 ```
 - 部署ezdata服务节点，使用环境变量控制启用哪些服务
 
